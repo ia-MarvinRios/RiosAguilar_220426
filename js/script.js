@@ -81,3 +81,11 @@ ctx.fillRect(170, 20, 10, 10);
 ctx.fillStyle = "black";
 ctx.fillText("Santa Tecla", 185, 30);
 
+// Stuff ---------------------------------
+var canvases = document.getElementsByClassName("grupo1");
+
+if (canvases.getContext){
+    alert("Si tiene conteto");
+}else{
+    alert("No tiene contexto");
+}
